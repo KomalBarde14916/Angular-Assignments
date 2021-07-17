@@ -1,0 +1,194 @@
+body {
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 80%;
+    background-color: white;
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+}
+
+
+#loGo {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    position: absolute;
+    width: 35%;
+    float: left;
+    text-align: left;
+    margin-left: 29%;
+    background-image: url('/images/btnSearch.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    outline: 0;
+}
+
+.navbar .far {
+    position: absolute;
+    margin-right: 0%;
+    padding: 10px;
+    margin-left: 64%;
+}
+
+#iconCal {
+    margin-left: 66%;
+}
+
+#imgFlag {
+    position: absolute;
+    margin-left: 69%;
+    margin-top: 15px;
+}
+
+.myProf {
+    background-color: #003d63;
+    color: rgb(112, 99, 99);
+    width: 100%;
+    text-align: left;
+}
+
+.navbar-drop {
+    margin-left: 79%;
+}
+
+.navbar-drop .fas {
+    color: blue;
+}
+
+
+.information-main-wrapper {
+    display: grid;
+    grid-gap: 3px;
+    grid-column: auto auto auto auto;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10 10 10 10;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.nav2 {
+    grid-column: 1/ span 3;
+    height: 1cm;
+    top: 10px;
+    -moz-box-align: center;
+    font-size: 12px;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #d4ecf8;
+    color: #31708f;
+    border-color: solid #bce8f1;
+    padding: 10 0;
+}
+
+.container-my-skills {
+    grid-column: 1/ span 3;
+    margin-left: 90%;
+    margin-top: 15px;
+    float: right;
+    padding: 10;
+}
+
+.information-about-me-details {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    margin: 20px;
+    width: 300px;
+    height: 530px;
+}
+
+.information-employment-details {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    height: 530px;
+}
+
+.information-organization-details {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    height: 530px;
+}
+
+.information-personal-details {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    height: 380px;
+}
+
+.information-emergency-details {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    height: 380px;
+}
+
+.information-contact-me-details {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    height: 380px;
+}
+
+.alert {
+    font-size: 11px;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.s4-notdlg {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-size: 12px;
+    height: 1cm;
+}
+
+.information-contact-me-details #BloodGroup {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

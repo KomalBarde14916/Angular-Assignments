@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(243, 236, 236);
+    text-align: center;
+}
+header{
+    height: 80px;
+    background-color: #4056a1;
+}
+#header{
+    width: 80%;
+    margin: auto;
+}
+.col-1{
+    width: 35%;
+    float: left;
+}
+.menu{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    font-size: .85em;
+    color: #ffffff;
+    text-decoration: center;
+    padding-right: 30px;
+}
+#top-section{
+    background-image: url(../images/Friends.jpg);
+    height: 740px;
+    border: none;
+}
+#top-section-content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 100px;
+}
+#top-section-content h1{
+    font-size: 4em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+#top-section-content p{
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+}
+.main-button{
+    background-color: #6dc77a;
+    border-radius: 28px;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    text-decoration: none;
+    font-size: 1em;
+   float: center;
+   color: #ffffff;
+   padding: 10px 26px;
+   margin-top: 20px;
+   display: inline-block;
+   font-size:17px;
+
+}
+.main-button:hover{
+    background-color: #5cbf2a;
+}
+

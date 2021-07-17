@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pages - Mastekeer Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="css/style01.css">
+
+
+</head>
+<header>
+    <div class="navbar">
+        
+        <img class="mn-logo pull-left" id="loGo" src="images/Mastek_logo.png" height="18" width="100">
+        <input class="search-input" type="text" placeholder="Search Everything"></input>
+        <i class='far fa-bell' style="font-size:24px; color: black;"></i>
+        <i class='far fa-calendar-alt' id="iconCal" style="font-size:24px;color: black;"></i>
+        <img src="./images/flag.png" id="imgFlag" alt="flagImg" style="width: 24px;height: 24px;margin-bottom: 1%;">
+
+
+
+
+        <ul class="navbar-drop dropdown pull-right">
+            <span class="text-left">Hi, Komal</span>
+            <span class='fas fa-user-alt' id="dvUname"></span>
+           
+            <a href="#" class="dropdown-toggle icon-male-user" id="dropdown1" type="button" data-toggle="dropdown" aria-haspopup="tree" aria-expanded="false">
+                <i class="caret" aria-hidden="true"></i>
+            </a>
+
+            <div class="dropdown-menu" style="background-color: #003d63 ;">
+                <a href="#" class="dropdown-item" style="color: white;">My Profile</a>
+                <a href="#" class="dropdown-item" style="color: white;">logout</a>
+            </div>
+        </ul>
+
+
+    </div>
+
+</header>
+
+<ul class="nav nav-pills justify-content-center" style="background-color: white; color: #ddd; margin-top: 0px;">
+    <li class="nav-item dropdown2 justify-content-center">
+        <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownButton" data-toggle="dropdown" aria-haspopup="tree" aria-expanded="false">Applications</button>
+        
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">My Requests</a>
+            <a href="#" class="dropdown-item">My Information</a>
+            <a href="#" class="dropdown-item">General Application</a>
+            <a href="#" class="dropdown-item">My Money</a>
+        </div>
+    </li>
+    <li class="nav-item dropdown2 justify-content-center">
+        <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownButton" data-toggle="dropdown" aria-haspopup="tree" aria-expanded="false">Corporate Functions</button>
+        
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Corporste Communication</a>
+            <a href="#" class="dropdown-item">Facilities and logistics</a>
+            <a href="#" class="dropdown-item">Finance and Accounts</a>
+            <a href="#" class="dropdown-item">Human Resource</a>
+        </div>
+    </li>
+    <li class="nav-item dropdown2">
+        <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownButton" data-toggle="dropdown" aria-haspopup="tree" aria-expanded="false">Collaboration Portals</button>
+        <!-- <a class="nav-link dropdown-toggle" data-toggle="dropdown">Collaboration Portals</a> -->
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">DigiLearn</a>
+            <a href="#" class="dropdown-item">Enterprise Agile Portal</a>
+            <a href="#" class="dropdown-item">Information Repository</a>
+            <a href="#" class="dropdown-item">Knowledge Management(KVault)</a>
+        </div>
+
+
+        <li class="nav-item dropdown2">
+            <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownButton" data-toggle="dropdown" aria-haspopup="tree" aria-expanded="false">External Links</button>
+             <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">CRM Dynamics Sales(Upgraded)</a>
+                <a href="#" class="dropdown-item">Microsoft Teams</a>
+                <a href="#" class="dropdown-item">SAP Enterprise Portal</a>
+                <a href="#" class="dropdown-item">Yammer</a>
+            </div>
+
+            <li class="nav-item dropdown2">
+                <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownButton" data-toggle="dropdown" aria-haspopup="tree" aria-expanded="false">About Mastek</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Global Presence</a>
+                    <a href="#" class="dropdown-item">Mastek Zone</a>
+                </div>
+
+                <li class="nav-item dropdown2">
+                    <button class="btn btn-light btn-sm dropdown-toggle " type="button" id="dropdownButton" data-toggle="dropdown" aria-haspopup="tree" aria-expanded="false">Support</button>
+                    
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">TIS Helpdesk</a>
+                        <a href="#" class="dropdown-item">HR Helpdesk-India</a>
+                        <a href="#" class="dropdown-item">Finance Helpdesk</a>
+                        <a href="#" class="dropdown-item">Facilities Helpdesk</a>
+                    </div>
+</ul>
+
+
+
+<div class="myProf">
+    <h2 class="navbar-brand text-white ">My Profile</h2>
+</div>
+
+
+
+
+
+
+
+<body class="main-body bg-light">
+
+    <div class="information-main-wrapper justify-content-center bg-light">
+
+        <div class="nav2 mb-2 s4">
+            <i class="fa fa-check-square-o" aria-hidden="true">
+            <label class="form-label " for="checkflex" > By selecting the checkbox
+                    for personal information consent, you have agreed to share your personal information with Mastek Ltd.
+                    Read disclaimer given below.</label></i>
+
+        </div>
+
+
+        <div class="container-my-skills">
+            <a class="btn btn-primary border-color-none " href="# "><i class="fas fa-file " style="font-size: 12px; "> MySkills</a></i>
+        </div>
+
+        <div class="information-about-me-details justify-content-center ">
+            <div id="ProfilePic ">
+                <div id="dvProfilePic" style="margin-top: -80px;">
+                    <img src="./images/user-icon.svg " alt="user-pic " style="align-items:center ;width: 135px; height: 135px;margin-top: 0%; ">
+
+                    <!-- <i class="fas fa-camera "></i> -->
+                </div>
+            </div>
+            <h3 class="name " style="text-align: center;font-size: 18px; ">Komal Barde</h3>
+            <h5 style="padding: 5px; text-align: center;font-size: 13px; ">Trainee Software Engineer</h5>
+            <ul style="text-align: left; font-size: 12px; ">
+                <i class="far fa-envelope "></i><span id="WorkEmail " style="color: blue; ">
+                        komalbarde25@gmail.com</span><br><br>
+                <i class="fa fa-phone "></i> <input class="numb " id="num2 " style="border-top:none;border-left: none;border-right: none; ">
+                <i class="fas fa-pencil-alt " aria-hidden="true "></i><br><br>
+                <i class="fa fa-mobile-phone " style=" font-size: 18px; "></i> <input class="num " id="num1 " placeholder="9876543210 " style="border-top:none;border-left: none;border-right: none; ">
+                <i class="fas fa-pencil-alt " aria-hidden="true "></i><br><br>
+                <i class='fas fa-user-alt' style="margin-right: 45% ; font-size: 12px; "> About Me</i><br>
+                <input class="numb " id="num2 " style="border-top:none;border-left: none;border-right: none; ">
+                <i class="fas fa-pencil-alt " aria-hidden="true "></i><br><br>
+                <i class="fas fa-graduation-cap " style="font-size: 12px;margin-right: 40%; ">Certifications</i>
+                <i class="fa fa-plus-circle " style="float: right;margin-right: 5%; "></i>
+
+            </ul>
+        </div>
+
+        <div class="information-employment-details justify-content-center ">
+
+            <div>
+                <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd ">
+                    <div class="user-profile "><i class="fa fa-id-card-o " style="font-size: 22px ">
+                        <span>Employment Details</span></i>
+                </h2>
+                </div>
+
+                <ul style="text-align: left; font-size: 12px; ">
+                    <div id="EmployeeNo ">
+                        <span style="color: rgb(192, 190, 190); ">Employee No. </span>
+                        <br><span id="txtEmployeeNo ">14916</span>
+                    </div>
+
+                    <div id="COE ">
+                        <span style="color: rgb(192, 190, 190); ">Service Line</span>
+                        <br><span id="txtCOE ">SL_Application Development</span>
+                    </div>
+
+                    <div id="SBUDesc ">
+                        <span style="color: rgb(192, 190, 190); ">Unit</span>
+                        <br><span id="txtSBUDesc ">CL-Talent Management Trainee Pool</span>
+                    </div>
+
+                    <div id="CCID ">
+                        <span style="color: rgb(192, 190, 190); ">Cost Center</span>
+                        <br><span id="txtCCID ">CF-Talent Acquisition Mgmt-Trainee-MH</span>
+                    </div>
+
+
+                    <div id="Area ">
+                        <span style="color: rgb(192, 190, 190); ">Area </span>
+                        <br><span id="txtArea ">Mumbai</span>
+                    </div>
+
+                    <div id="SubArea ">
+                        <span style="color: rgb(192, 190, 190); ">Sub Area </span>
+                        <br><span id="txtSubArea ">Mahape</span>
+                    </div>
+
+                    <div id="Grade ">
+                        <span style="color: rgb(192, 190, 190); ">Grade </span><i class="fa fa-lock " style=" color: #ddd;float:right;margin-right: 7%; font-size: 15px; "></i>
+                        <br><span id="txtGrade ">T2</span>
+                    </div>
+                    <div id="UnitHR ">
+                        <span style="color: rgb(192, 190, 190); ">Unit HR </span><i class="fa fa-lock " style=" color: #ddd;float:right;margin-right: 7%; font-size: 15px; ">
+                            </i>
+                        <br><span id="txtUnitHR ">Not Available</span>
+                    </div>
+                    <div id="DOJ ">
+                        <span style="color: rgb(192, 190, 190); ">Date of Joining </span><i class="fa fa-lock " style=" color: #ddd;float:right;margin-right: 7%;font-size: 15px; "></i>
+                        <br><span id="txtDOJ ">17 May 2021</span>
+                    </div>
+            </div>
+
+
+            <div class="information-organization-details justify-content-center ">
+
+                <div>
+                    <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd ">
+                        <div class="org-profile ">
+                            <i class="fa fa-sitemap " style="font-size: 22px ">
+                                <span>Organization</span></i>
+                    </h2>
+                    <div id="empOrg " style="margin-top: 5%; "></div>
+                    </div>
+                    <ul style="text-align: left; font-size: 12px; ">
+                        <img src="./images/01.jpg " alt="pro01 " style="width: 35px; height: 35px; border-radius: 50%; ">
+                        <span>Ashank Desai</span><br>
+                        <img src="./images/02.jpg " alt="pro02 " style="border-color: #b1aeae; ">
+                        <span>Maninder Kapoor Puri</span><br>
+                        <img src="./images/03.jpg " alt="pro03 " style="width: 35px; height: 35px; border-radius: 50%; ">
+                        <span>Girish Kulkarni</span><br>
+                        <img src="./images/04.jpg " alt="pro04 " style="width: 35px; height: 35px; border-radius: 50%; ">
+                        <span>Joel J. Luis</span><br>
+                        <img src="./images/user-icon.svg " alt="user " style="width: 35px; height: 35px; border-radius: 50%; ">
+                        <span>Komal Barde</span>
+                    </ul>
+                </div>
+
+                <div class="information-personal-details justify-content-center ">
+                    <div>
+                        <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd ">
+                            <div class="pinfo ">
+                                <i class="fa fa-info-circle " style="font-size: 22px ">
+                                    <span>Personal Information</span></i></h2>
+                        <i class="fa fa-lock " style="float: right; color: #ddd; margin-top: -40px; font-size: 15px;margin-right: 4%; "></i>
+
+                        </div>
+                        <ul style="text-align: left; ">
+                            <div id="Gender ">
+                                <span style="color:#b1aeae ">Gender</span><br>
+                                <span id="txtGender ">Female</span><br><br>
+                                <span style="color:#b1aeae ">Birthday</span><br>
+                                <span id="txtDOB ">18 September</span><br><br>
+                                <span style="color:#b1aeae ">Other Details</span><br><br>
+                                <ul>
+                                    <li>Passport / Visa Details<i class="fa fa-plus-circle " style="float: right;margin-right: 5%; "></i></li><br>
+                                    <li>Family Details<i class="fa fa-plus-circle " style="float: right;margin-right: 5%; "></i></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="information-contact-me-details justify-content-center ">
+
+                        <div>
+                            <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd ">
+                                <div class="con-info ">
+                                    <i class="fa fa-phone-square " style="font-size: 22px ">
+                                        <span>Contact Information</span></i></h2>
+
+                            <i class="fa fa-lock " style="float: right; color: #ddd; margin-top: -40px; font-size: 15px;margin-right: 4%; "></i>
+                            </div>
+
+                            <ul style="text-align: left; ">
+                                <div id="PEmailId " style="border: dotted; border-color:rgb(192, 190, 190); margin-right: 20px; ">
+                                    <span style="color: rgb(192, 190, 190); ">Personal Email Id</span><br>
+                                    <input type="text " id="EmailId " placeholder=" " style="border-top:none;border-left: none;border-right: none; ">
+                                    <i class="fa fa-pencil "></i><br><br>
+
+                                    <span style="color: rgb(192, 190, 190); ">Confirmation Key</span>
+                                    <i class="fa fa-question-circle "></i><br>
+
+                                    <input type="text " id="ConfirmationKey " placeholder=" " style="border-top:none;border-left: none;border-right: none; ">
+                                    <i class="fa fa-check "></i><br>
+                                </div><br>
+
+                                <span style="color: rgb(192, 190, 190); ">Residence No</span><br>
+                                <input type="text " id="ResidenceNo " style="border-top:none;border-left: none;border-right: none; " /><i class="fa fa-pencil "></i><br><br>
+                                <span style="color: rgb(192, 190, 190); ">Current Address</span><br>
+                                <input type="text " id="ResidenceNo " style="border-top:none;border-left: none;border-right: none; " /><i class="fa fa-pencil "></i><br>
+                            </ul>
+                        </div>
+
+                        <div class="information-emergency-details justify-content-center ">
+                            <div>
+                                <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd ">
+                                    <div class="em-detail ">
+                                        <i class="fa fa-ambulance " style="font-size: 22px ">
+                                            <span>Emergency Details</span></i>
+                                </h2>
+                                <i class="fa fa-lock " style="float: right; color: #ddd; margin-top: -40px; font-size: 15px;margin-right: 4%; "> </i>
+                                </div>
+                                <ul style="text-align: left; ">
+                                    <div id="BloodGroup ">
+                                        <span style="color: rgb(192, 190, 190); ">Blood Group </span>
+                                        <br><br>
+                                        <select id="BloodGroup " disabled style="width: 50%;border-top: none;border-left: none;border-right: none; ">
+                                        <option value="-1 ">O+</option>
+                                        <option value="O+ ">O+</option>
+                                        <option value="O- ">O-</option>
+                                        <option value="A+ ">A+</option>
+                                        <option value="A- ">A-</option>
+                                        <option value="B+ ">B+</option>
+                                        <option value="B- ">B-</option>
+                                        <option value="AB+ ">AB+</option>
+                                        <option value="AB- ">AB-</option>
+                                    </select>
+
+                                        <i class="fa fa-pencil "></i>
+                                    </div>
+                                    <br>
+
+                                    <span style="color: rgb(192, 190, 190); ">Emergency Contact Name </span>
+                                    <input type="text " id="Bgroup " style="border-top:none;border-left: none;border-right: none; " />
+                                    <i class="fa fa-pencil "></i><br><br>
+                                    <span style="color: rgb(192, 190, 190); ">Emergency Contact No </span>
+                                    <input type="text " id="Bgroup " style="border-top:none;border-left: none;border-right: none; " />
+                                    <i class="fa fa-pencil "></i>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="alert alert-warning ">
+                        <strong>Disclaimer : </strong>Your privacy is important to us. Mastek uses the personal data provided by you on this form for the organizations internal processing requirement as part your employment. We will use your data for
+                        the organizations communication and notification. We will share your data with Mastek controlled affiliates and subsidiaries; with vendors working on our behalf; when required by law or to respond to legal process; to protect our
+                        customers ; to protect lives; to maintain the security of our services; and to protect the right of property or Mastek. Mastek is committed to protecting the security of your personal data. Mastek requests you to inform us about
+                        any changes to your personal data via an email to your respective Human Resource personal or by sending an email to <a href="# ">
+            PIIdatamodification@mastek.com
+        </a>. </p>
+                    </div>
+
+
+
+                    <footer class="s4-notdlg ">© Copyright 2016 - 2020. All rights reserved </footer>
+
+</body>
+
+
+</html>
